@@ -4,7 +4,7 @@ let para=document.getElementById("counter")
 btn.addEventListener("click",increment)
 let count=0
 function increment() {
-	alert(para.innerText)
+	alert(count)
 	count=count+1
 para.innerText=count
 	
